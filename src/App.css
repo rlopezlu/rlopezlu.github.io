@@ -17,19 +17,14 @@
 }
 
 .App-text{
-  width: 70%;
-  margin: auto;
+  /* margin: auto; */
 }
 
 p{
   color: #222;
 }
 
-@media only screen and (max-width: 650px)  {
-  .App-text{
-    width: 95%;
-  }
-}
+
 
 .whiteBg{
   background-color: white;

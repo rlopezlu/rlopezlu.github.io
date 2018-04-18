@@ -4,10 +4,11 @@ import '../Styles/Objective.css'
 export default function Objective(){
   return(
     <div className="Objective">
-      <p className="bolder">
-        Objective
-      </p>
-      <div className="whiteBg">
+      <div className="ObjectiveContent">
+        <p className="bolder">
+          Objective
+        </p>
+
         <div className="content">
           <p >I am looking for my first full time software development job. I have
             experience working with multiple parts of the javascript web dev stack

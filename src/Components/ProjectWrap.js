@@ -20,7 +20,19 @@ export default function ProjectWrap(){
       role:"Web Developer",
       note:"Side Project",
       tech: ["React", 'Express', 'Nodejs' ],
-      link:"https://rlopezlu.github.io/league-history/"
+      link:"https://rlopezlu.github.io/league-history/",
+      color:"blue"
+    },
+    {
+      title: "Hacker News Reader",
+      img:"comment",
+      description:`Alternate reader for Hacker News powered by their official public
+      api. React Router allows users to navigate to specific posts.`,
+      role:"Web Developer",
+      note:"Side Project",
+      tech: ["React", 'React Router' ],
+      link:"https://rlopezlu.github.io/hacker-news/",
+      color:"purple"
     },
     {
       title: "Typing Speed Test",
@@ -30,7 +42,8 @@ export default function ProjectWrap(){
       note:"Side Project",
       role:"Web Developer",
       tech: ["React", 'Express', 'Nodejs' ],
-      link:"https://rlopezlu.github.io/typing-speed-test/"
+      link:"https://rlopezlu.github.io/typing-speed-test/",
+      color:"green"
     },
     {
       title: "Smart Irrigation",
@@ -40,7 +53,8 @@ export default function ProjectWrap(){
       role:"Front End Developer",
       tech: ["js", 'Vue' ],
       note: "CMPS 116-117 - Senior Project",
-      link: "https://i.imgur.com/w3BKogU.png"
+      link: "https://i.imgur.com/w3BKogU.png",
+      color:"red"
     },
     {
       title: "Quest Journal",
@@ -50,7 +64,8 @@ export default function ProjectWrap(){
       role:"Android Developer",
       tech: ["Android Studio", 'Firebase', 'Java'],
       note: "CMPS 121 - Mobile Apps",
-      link: "https://github.com/jasonou/Quest-Journal"
+      link: "https://github.com/jasonou/Quest-Journal",
+      color:"blue"
     },
     {
       title: "Space",
@@ -60,7 +75,8 @@ export default function ProjectWrap(){
       role:"Team Lead",
       note:"CMPS 115 - Software Engineering",
       tech: ["React Native", 'Firebase' ],
-      link:"https://github.com/joshuapena/space-mobile"
+      link:"https://github.com/joshuapena/space-mobile",
+      color:"purple"
     },
     {
       title: "Spotlight",
@@ -70,7 +86,8 @@ export default function ProjectWrap(){
       note:"UCSC Hackathon 2016",
       role:"Front End Developer",
       tech: ["Angular", 'Bootstrap' ],
-      link:'https://github.com/ankur-gos/SpotlightWeb'
+      link:'https://github.com/ankur-gos/SpotlightWeb',
+      color:"green"
     },
     {
       title: "Weather SMS",
@@ -80,7 +97,8 @@ export default function ProjectWrap(){
       note:"Side Project",
       role:"Web Developer",
       tech: ["Twilio", 'Express', 'Nodejs' ],
-      link:"https://github.com/rlopezlu/TwilioWeather"
+      link:"https://github.com/rlopezlu/TwilioWeather",
+      color:"red"
     }
   ]
 
@@ -97,6 +115,7 @@ export default function ProjectWrap(){
             description={project.description}
             role={project.role}
             tech={project.tech}
+            color={project.color}
             note={project.note}
             link={project.link}
                  />

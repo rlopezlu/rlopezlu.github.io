@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
+.Work{
+  display: inline-block;
+  background-color: #16a085;
+  color: white;
+}
+
+.WorkContent{
+  width: 70%;
+  margin: auto;
+}
+
+.Work p{
+  color: white;
+}
+
+.WriteupText{
+  text-align: left;
+}
+
 .summary{
   display: flex;
   justify-content: space-around;
@@ -12,7 +31,7 @@
   align-self:center;
 }
 
-.summary ul{    
+.summary ul{
   width: 15em;
   margin: 0;
   padding: 0;
@@ -22,7 +41,6 @@
 .writeup{
   /* display: none; */
   margin: auto;
-  width: 80%;
 }
 
 .hidden{
@@ -40,7 +58,7 @@
 .jobDescription{
   padding: 3px 0;
   margin: auto;
-  width: 80%;
+  text-align: left;
 }
 
 

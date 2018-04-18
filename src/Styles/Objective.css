@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
-.whiteBg .content{
-  width: 80%;
+.ObjectiveContent{
   margin: auto;
-  /* text-align: left; */
-  /* text-indent: 2em; */
+  width: 70%;
+
+}
+
+.Objective .content{
+  text-align: left;
+}
+.ObjectiveContent p{
+  color: white;
+}
+
+.Objective{
+  display: inline-block;
+  width: 100%;
+  background-color: #8e44ad;;
 }

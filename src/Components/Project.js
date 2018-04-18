@@ -12,7 +12,7 @@ export default function Project(props){
     })
   }
     return(
-    <div className="project">
+    <div className={"project "+props.color}>
       <div className="title">
         <p className="titleText">{props.title}</p>
         <div className="flexWrapper">
