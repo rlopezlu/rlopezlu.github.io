@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+.summary{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.summaryLeft{
+  /* background-color: blue; */
+  align-self:center;
+}
+
+.summary ul{    
+  width: 15em;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.writeup{
+  /* display: none; */
+  margin: auto;
+  width: 80%;
+}
+
+.hidden{
+  display: none;
+}
+
+.summary li{
+  width: 7em;
+  /* background-color: red; */
+  display: inline-block;
+  margin:auto;
+  padding-bottom: 5px;
+}
+
+.jobDescription{
+  padding: 3px 0;
+  margin: auto;
+  width: 80%;
+}
+
+
+button{
+  color: white;
+}
+
+.jobLocation{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.summary div{
+  /* width: 30%; */
+  /* background-color: red; */
+}
+
+.summary div p{
+  width: 100%;
+}

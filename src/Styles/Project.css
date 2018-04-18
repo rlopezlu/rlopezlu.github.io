@@ -1,0 +1,112 @@
+.project{
+  background-color: white;
+  margin: 10px 0;
+  /* min-width: 30%; */
+  /* max-width: 45%; */
+  width: 45%;
+  margin: 2%;
+  box-shadow: 1px 1px 1px #888888;
+  overflow: hidden;
+}
+
+
+.titleText{
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+
+.flexWrapper{
+  display: flex;
+  justify-content:space-around;
+}
+
+@media only screen and (max-width: 700px) {
+  .project{
+    /* max-width:95%; */
+    width: 95%;
+  }
+}
+
+
+button{
+  background-color: #3498db;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  /* margin-top: 10%; */
+  padding: 10px;
+  font-size: large;
+  /* position: absolute; */
+}
+
+
+button:hover{
+  background-color: #9c99c6;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.faIcon{
+  border-radius: 50%;
+  font-size: 2.5em;
+  color: white;
+  /* background-color: black; */
+  position: relative;
+  top: 10%;
+}
+
+.content{
+  padding: 0 5px 10px 5px;
+}
+
+.iconCircleWrapper{
+  height: 4em;
+  width: 4em;
+  /* padding: 0 2px; */
+  margin-top: 2%;
+  /* background-color: purple; */
+  /* width: 4em; */
+  /* padding-top: 4em; */
+  /* height: 100%; */
+  border: solid 1px white;
+  border-radius: 50%;
+}
+
+.content > p{
+  margin: 0;
+  padding:10px 0  10px 0;
+}
+
+.contentText{
+  min-height: 7em;
+}
+
+.titleContent{
+  padding: 0;
+  max-width: 60%;
+
+}
+
+.titleContent p{
+  padding: 0;
+  color: white;
+}
+
+.title{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
+  /* border-radius: 17%; */
+  /* display: inline-block; */
+  width: 100%;
+  /* height: 25%; */
+  background-color: #2980b9;
+  color: white;
+}

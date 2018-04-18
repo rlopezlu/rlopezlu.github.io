@@ -1,0 +1,46 @@
+.Nav{
+  /* padding-top: 5px; */
+  position: fixed;
+  top: 0;
+  box-shadow: 2px 2px 2px #888888;
+  font-size: 30px;
+  font-weight: 400;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: black;
+  background-color: white;
+  width: 100%;
+  z-index: 99;
+}
+
+@media only screen and (max-width: 670px) {
+  .Nav{
+    height: 70px;
+    font-size: 24px;
+  }
+
+  .Nav .right{
+    /* display: none; */
+    width: 85%;
+    font-size: 18px;
+  }
+}
+
+
+.Nav span{
+  align-self: center;
+}
+
+.Nav .right{
+  /* padding-top: 10px; */
+  align-self:center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.Nav .right a{
+  color: black;
+  padding-right: 10px;
+}
