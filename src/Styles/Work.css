@@ -64,10 +64,12 @@
   text-align: left;
 }
 
-
-button{
+.Work button{
   color: white;
+  border: 1px solid white;
+  background-color: #16a085;  
 }
+
 
 .jobLocation{
   font-size: 20px;
@@ -85,6 +87,6 @@ button{
 
 @media only screen and (max-width: 650px)  {
   .WorkContent{
-    width: 80%;
+    width: 90%;
   }
 }

@@ -1,5 +1,6 @@
 .project-flex{
   margin: auto;
+  margin-top: 2em;
   /* background-color: red; */
   display: flex;
   flex-wrap: wrap;
@@ -8,7 +9,7 @@
 }
 
 .project-wrap .bolder{
-  border-bottom: 3px solid #8e44ad;
+  border-bottom: 3px solid black;
 }
 @media only screen and (max-width: 650px)  {
   .project-flex{
