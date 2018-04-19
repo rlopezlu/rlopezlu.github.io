@@ -67,7 +67,14 @@
 .Work button{
   color: white;
   border: 1px solid white;
-  background-color: #16a085;  
+  background-color: #16a085;
+  transition: color 1s;
+  transition: background-color 1s;
+}
+
+.Work button:hover{
+  background-color: white;
+  color: #16a085;
 }
 
 
