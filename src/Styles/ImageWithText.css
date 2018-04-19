@@ -1,4 +1,5 @@
 .ImageWithText{
+  margin-top: 3em;
   /* display: inline-block; */
   /* margin: auto; */
   width: 100%;
@@ -30,7 +31,7 @@
   font-size: 20px;
   position:relative;
   transform: translate(0%, -50%);
-  top: -10em;
+  top: -9em;
   margin-bottom: -10em;
 
   z-index: 70;

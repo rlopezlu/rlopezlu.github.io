@@ -2,11 +2,11 @@
 
 .ObjectiveContent{
   margin: auto;
-  width: 70%;
-
+  width: 60%;
 }
 
 .Objective .content{
+  margin-top: 2em;
   text-align: left;
 }
 .ObjectiveContent p{
@@ -16,5 +16,12 @@
 .Objective{
   display: inline-block;
   width: 100%;
+  padding: 2em 0;
   background-color: #8e44ad;;
+}
+
+@media only screen and (max-width: 650px)  {
+  .ObjectiveContent{
+    width: 80%;
+  }
 }

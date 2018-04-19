@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
 .Work{
+  width: 100%;
   display: inline-block;
   background-color: #16a085;
   color: white;
+  padding: 2em 0;
+
 }
 
 .WorkContent{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
@@ -78,4 +81,10 @@ button{
 
 .summary div p{
   width: 100%;
+}
+
+@media only screen and (max-width: 650px)  {
+  .WorkContent{
+    width: 80%;
+  }
 }

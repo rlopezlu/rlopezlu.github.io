@@ -33,11 +33,11 @@ export default class Work extends Component{
   return(
     <div id="WorkAnchor" className="Work">
       <div className="WorkContent">
-        <p className="bolder">
-          Work Experience
-        </p>
+        <div className="bolder underline">
+          Internship
+        </div>
         <div>
-          <p className="jobLocation">Leeps Lab UCSC</p>
+          <p className="jobLocation">Leeps Lab</p>
           <div className="summary">
             <div className="summaryLeft">
               <p >Web Developer</p>
@@ -103,7 +103,7 @@ export default class Work extends Component{
           </div>
         </div>
       </div>
-      </div>
+    </div>
     )
   }
 }

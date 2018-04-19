@@ -4,7 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
+  width: 65%;
+}
+
+.project-wrap .bolder{
+  border-bottom: 3px solid #8e44ad;
 }
 @media only screen and (max-width: 650px)  {
   .project-flex{
