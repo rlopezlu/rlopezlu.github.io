@@ -1,11 +1,11 @@
-.Nav{  
+.Nav{
   /* padding-top: 5px; */
   position: fixed;
   top: 0;
   box-shadow: 2px 2px 2px #888888;
   font-size: 30px;
   font-weight: 400;
-  height: 50px;
+  height: 54px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -15,6 +15,28 @@
   z-index: 99;
 }
 
+.right a{
+  margin: .3em;
+  text-align: center;
+  /* margin: auto; */
+}
+
+/* .right a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+
+.right a:hover::after{
+  width: 100%;
+} */
+
+.right a:hover{
+  border-bottom: 1px solid black;
+}
 @media only screen and (max-width: 670px) {
   .Nav{
     height: 70px;
@@ -35,12 +57,14 @@
 
 .Nav .right{
   /* padding-top: 10px; */
+  text-align: center;
   align-self:center;
   font-size: 20px;
   font-weight: 300;
+  /* margin: auto; */
 }
 
 .Nav .right a{
   color: black;
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }

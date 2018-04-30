@@ -60,7 +60,9 @@ export default class Work extends Component{
             Designed mockups, wireframes, and flow of web application. Collaborated
             with non-technical staff, and helped them run the project locally.
           </p>
-          <a href={this.getHref()}><button onClick={this.handleClick}>{this.buttonLabel()}</button></a>
+          {/* <a href={this.getHref()}> */}
+          <button onClick={this.handleClick}>{this.buttonLabel()}</button>
+          {/* </a> */}
           <div className={this.showOrHide()}>
             <div className="WriteupText">
               <p>I worked at Leeps econ research lab under Kristian Lopez Vargas the summer after my junior year. The goal of my project was to develop web powered behavioral experiments that changed based on the responses to previous questions. I took over an existing Angular project, where two anonymous participants decided how to distribute real money earned through their interactions in the experiments. The data was controlled by RedWood, a framework designed for synchronizing data across participants from real time interaction. RedWood and Angular paired together well, and the majority of the app was coded in JS and ran as a single page application. Data was handled by Angular $scope, pushed to RedWood, and updated as needed after each app page was completed. It was the first time I worked on a web project as large as this. My contributions include adding features to this project based on the designs by lab staff. This included css styling, new pages with new interactions, and redesigning the flow of the interactions.
@@ -71,10 +73,12 @@ export default class Work extends Component{
               </p>
 
               <p>I learned to communicate clearly with the staff and to complete design before any coding is done. The lab staff did not have a very technical background, so clear concise communication was required on both ends. I created README pages that could be understood by non-programmers explaining how to clone, run, and test the project. The documentation also served as a primer to Otree. In addition, I learned how to effectively use github for version control. Having separate production and development branches allowed me to become familiar with the code base without the fear of disrupting live code. When I wasn’t in the lab, I worked remotely from Oakland. Regardless of if a meeting took place through skype or in the lab, meetings usually resulted in a whiteboard full of diagrams, flow charts, wireframe mockups for different components, and deadlines set by priority. It was important to know what questions to ask, ideas to propose, and progress to share ahead of time. I enjoyed the autonomy and responsibility while working with Leeps.
-                
+
               </p>
             </div>
-            <a href={this.getHref()}><button onClick={this.handleClick}>{this.buttonLabel()}</button></a>
+            {/* <a href={this.getHref()}> */}
+            <button onClick={this.handleClick}>{this.buttonLabel()}</button>
+            {/* </a> */}
           </div>
         </div>
       </div>

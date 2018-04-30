@@ -15,19 +15,40 @@
   margin-top: 1em;
   color: #333;
 }
+
+.project button{
+  transition: background-color .2s, box-shadow .3s;
+}
+
 .blue .title, .blue button{
   background-color: #2980b9;
+}
+
+.blue button:hover{
+  background-color: #3498db;
 }
 
 .green .title, .green button{
   background-color: #16a085;
 }
 
+.green button:hover{
+  background-color: #1abc9c;
+}
+
 .purple .title, .purple button{
   background-color: #8e44ad;
 }
 
+.purple button:hover{
+  background-color: #9b59b6;
+}
+
 .red .title, .red button{
+  background-color: #c0392b;
+}
+
+.red button:hover{
   background-color: #e74c3c;
 }
 
@@ -66,8 +87,7 @@ button{
 }
 
 
-button:hover{
-  background-color: #9c99c6;
+.project button:hover{
   box-shadow: 2px 2px 2px #888888;
 }
 

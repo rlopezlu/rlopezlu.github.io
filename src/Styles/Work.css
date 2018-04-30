@@ -69,7 +69,7 @@
   border: 1px solid white;
   background-color: #16a085;
   transition: color .7s;
-  transition: background-color .7s;
+  transition: background-color .3s;
 }
 
 .Work button:hover{

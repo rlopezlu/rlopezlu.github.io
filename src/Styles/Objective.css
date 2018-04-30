@@ -18,7 +18,8 @@
   display: inline-block;
   width: 100%;
   padding: 2em 0;
-  background-color: #8e44ad;;
+  background-color: #8e44ad;
+  background: linear-gradient(to bottom right, #8e44ad, #9b59b6)
 }
 
 @media only screen and (max-width: 650px)  {
