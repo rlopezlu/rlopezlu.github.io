@@ -35,28 +35,6 @@ export default function ProjectWrap(){
       color:"purple"
     },
     {
-      title: "Typing Speed Test",
-      img:"keyboard-o",
-      description:`How many words can you type per minute? Find out in this
-      typing test.`,
-      note:"Side Project",
-      role:"Web Developer",
-      tech: ["React", 'Express', 'Nodejs' ],
-      link:"https://rlopezlu.github.io/typing-speed-test/",
-      color:"green"
-    },
-    {
-      title: "Smart Irrigation",
-      img:"pie-chart",
-      description:`Worked with a front end and back end team to implement a full
-        stack application. `,
-      role:"Front End Developer",
-      tech: ["js", 'Vue' ],
-      note: "CMPS 116-117 - Senior Project",
-      link: "https://i.imgur.com/w3BKogU.png",
-      color:"red"
-    },
-    {
       title: "Quest Journal",
       img:"list-ul",
       description:`Java programmer in group of 3. Helped design all parts of the app
@@ -65,7 +43,7 @@ export default function ProjectWrap(){
       tech: ["Android Studio", 'Firebase', 'Java'],
       note: "CMPS 121 - Mobile Apps",
       link: "https://github.com/jasonou/Quest-Journal",
-      color:"blue"
+      color:"green"
     },
     {
       title: "Space",
@@ -76,6 +54,29 @@ export default function ProjectWrap(){
       note:"CMPS 115 - Software Engineering",
       tech: ["React Native", 'Firebase' ],
       link:"https://github.com/joshuapena/space-mobile",
+      color:"red"
+    },
+
+    {
+      title: "Typing Speed Test",
+      img:"keyboard-o",
+      description:`How many words can you type per minute? Find out in this
+      typing test.`,
+      note:"Side Project",
+      role:"Web Developer",
+      tech: ["React", 'Express', 'Nodejs' ],
+      link:"https://rlopezlu.github.io/typing-speed-test/",
+      color:"blue"
+    },
+    {
+      title: "Smart Irrigation",
+      img:"pie-chart",
+      description:`Worked with a front end and back end team to implement a full
+        stack application. `,
+      role:"Front End Developer",
+      tech: ["js", 'Vue' ],
+      note: "CMPS 116-117 - Senior Project",
+      link: "https://i.imgur.com/w3BKogU.png",
       color:"purple"
     },
     {
